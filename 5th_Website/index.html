@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Profile</title>
+
+    <style>
+        body
+        {
+            background-color:rgb(160, 217, 198);
+            font-family: arial;
+
+        }
+
+        section
+        {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        #MainDiv
+        {
+            background-color: white;
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            align-content: center;
+            flex-direction: column;
+
+            border-radius: 8px;
+            box-shadow: 5px 5px 5px gray;
+            width: 400px;
+            height: 350px;
+        }
+
+        #Profile
+        {
+            border: 1px solid black;
+            border-radius: 100px;
+            width: 100px;
+            height: 100px;
+        }
+
+        img
+        {
+            border-radius: 100px;
+            width: 100px;
+            height: 100px; 
+        }
+
+        h1
+        {
+            margin-bottom: 10px;
+        }
+
+        p
+        {
+            color: gray;
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+
+        #ButtonContainer
+        {
+            display: flex;
+            flex-direction: row;
+            gap: 20px;
+        }
+
+        .Button
+        {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+
+            background-color: rgb(15, 178, 228);
+
+            border-radius: 4px;
+            width: 100px;
+            height: 40px;
+        }
+
+        .Button a
+        {
+            color: white;
+            text-decoration: none;
+            padding: 5px;
+        }
+        
+        a:hover
+        {
+            color: black;
+        }
+
+    </style>
+
+</head>
+
+<body>
+    <section>
+
+    <div ID="MainDiv">
+
+        <div ID="Profile">
+            <img src="me.jpg">
+        </div>
+
+        <h1>Jayy</h1>
+        <p>Web Developer</p>
+        <p>Location: Bacoor, Philippines</p>
+        
+        <div ID="ButtonContainer">
+
+            <div class="Button">
+                <a href="">Follow</a>
+            </div>
+
+            <div class="Button">
+                <a href="">Message</a>
+            </div>
+
+        </div>
+        
+    </div>
+
+    </section>
+</body>
+
+</html>
